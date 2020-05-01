@@ -8,7 +8,7 @@ except Error as e:
 
 
 def person():
-    # insert person
+    # inserted person
     db_cursor = pets_db.cursor()
     person_query = '''INSERT INTO Person VALUES (?,?,?,?);'''
     values = [
